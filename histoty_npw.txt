@@ -1,0 +1,1000 @@
+ 1169  git add .
+ 1170  git commit -m "resolved the reference error for pagination"
+ 1171  cd ..
+ 1172  git add .
+ 1173  git commit -m "resolved the reference error for pagination"
+ 1174  git branch
+ 1175  git push origin bug_fix-Recipe_data
+ 1176  git branch
+ 1177  git checkout bug_fix-issues_template 
+ 1178  git status
+ 1179  git branch
+ 1180  git push origin bug_fix-issues_template 
+ 1181  git add .
+ 1182  git commit -m "resolved the reference error for pagination"
+ 1183  git push origin bug_fix-issues_template 
+ 1184  git pull
+ 1185  git pull origin bug_fix-issues_template 
+ 1186  git branch
+ 1187  git status
+ 1188  git add .
+ 1189  git commit -m "removed unnessary imports"
+ 1190  git branch bug_fix-sign_up
+ 1191  git checkout bug_fix-sign_up 
+ 1192  cd frontend/
+ 1193  npm run dev
+ 1194  cd  ../backend/
+ 1195  git branch
+ 1196  npm run dev
+ 1197  cd ..
+ 1198  git branch
+ 1199  git add .
+ 1200  git commit -m "Added validations"
+ 1201  git push origin bug-fix_added_validations 
+ 1202  cd backend/
+ 1203  npm run dev
+ 1204  git status
+ 1205  git branch
+ 1206  git pull origin bug-fix_added_validations 
+ 1207  git statys
+ 1208  git status
+ 1209  cd ..
+ 1210  git status
+ 1211  git push origin bug-fix_added_validations 
+ 1212  git pull origin bug-fix_added_validations 
+ 1213  git status
+ 1214  git add .
+ 1215  git status
+ 1216  git branch
+ 1217  git checkout master
+ 1218  git stash
+ 1219  git checkout bug-fix_added_validations 
+ 1220  git pull origin bug-fix_added_validations 
+ 1221  git branch master 
+ 1222  git checkout master 
+ 1223  git branch bug-fix_added_signup_validation
+ 1224  git checkout bug-fix_added_signup_validation 
+ 1225  git pull
+ 1226  git pull origin bug-fix_added_validations 
+ 1227  git checkout bug-fix_added_validations 
+ 1228  git status
+ 1229  git branch
+ 1230  git checkout bug-fix_added_signup_validation 
+ 1231  git status
+ 1232  git pull origin bug-fix_added_validations 
+ 1233  git pull origin master
+ 1234  git status
+ 1235  git branch
+ 1236  git push origin bug-fix_added_signup_validation 
+ 1237  git log
+ 1238  cd ..
+ 1239  ls
+ 1240  mkdir TT7
+ 1241  cd TT7/
+ 1242  git clone git@github.com:sadath2001/TastyTrails.git
+ 1243  cd TastyTrails/
+ 1244  git branch bug_fix-added_validations_signup
+ 1245  git checkout bug_fix-added_validations_signup
+ 1246  code .
+ 1247  cd backend/
+ 1248  npm run dev
+ 1249  git branch
+ 1250  npm run dev
+ 1251  cd ..
+ 1252  git status
+ 1253  git add .
+ 1254  git commit -m "fixed the issue"
+ 1255  git branch
+ 1256  git push origin bug_fix-sign_up 
+ 1257  git branch
+ 1258  git checkout master
+ 1259  git pull
+ 1260  git branch
+ 1261  git pull
+ 1262  git branch bug-fix_added_validations
+ 1263  git checkout bug-fix_added_validations 
+ 1264  cd frontend/
+ 1265  npm run dev
+ 1266  cd ..
+ 1267  cd TT5/
+ 1268  cd TastyTrails/
+ 1269  git statys
+ 1270  code .
+ 1271  git branch
+ 1272  git status
+ 1273  git add .
+ 1274  git commit -m "added validations"
+ 1275  git push origin bug_fix-added_validations_signup 
+ 1276  cd frontend/
+ 1277  npm run dev
+ 1278  npm i install
+ 1279  npm run dev
+ 1280  cd backend/
+ 1281  npm i install
+ 1282  npm run dev
+ 1283  ls
+ 1284  cd ..
+ 1285  ls
+ 1286  cd TT5/
+ 1287  cd TastyTrails/
+ 1288  git branch
+ 1289  cd ..
+ 1290  ls
+ 1291  cd ..
+ 1292  ls
+ 1293  cd TT6/
+ 1294  cd TastyTrails/
+ 1295  git status
+ 1296  git branch
+ 1297  code .
+ 1298  gh pr checkout 130
+ 1299  sudo apt  install gh
+ 1300  gh pr checkout 130
+ 1301  git branch
+ 1302  gh pr checkout 130
+ 1303  git pr checkout 130
+ 1304  gh auth loigin
+ 1305  gh auth login
+ 1306  git branch
+ 1307  cd ..
+ 1308  cd TT5
+ 1309  cd TastyTrails/
+ 1310  git branch
+ 1311  git checkout feature-chat_functionality 
+ 1312  git status
+ 1313  git stash
+ 1314  git checkout feature-chat_functionality 
+ 1315  git status
+ 1316  code .
+ 1317  sudo chmod 777 dist/
+ 1318  git status
+ 1319  git branch
+ 1320  git checkout bug_fix-sign_up 
+ 1321  git checkout bug_fix-github_images 
+ 1322  git branch
+ 1323  git checkout feature-chat_functionality
+ 1324  cd frontend/
+ 1325  npm run dev
+ 1326  git staus
+ 1327  git status
+ 1328  git add .
+ 1329  git commit -m "added components"
+ 1330  cd ..
+ 1331  cd .
+ 1332  cd ..
+ 1333  mkdir tt_chat
+ 1334  cd tt_chat/
+ 1335  git clone git@github.com:sadath2001/TastyTrails.git
+ 1336  cd TastyTrails/
+ 1337  git branch feature-chat_app
+ 1338  git checkout feature-chat_app 
+ 1339  git statys
+ 1340  git status
+ 1341  cd backend/
+ 1342  code .
+ 1343  cd ..
+ 1344  code .
+ 1345  npx create-react-app my-app --template cra-template-pwa
+ 1346  cd my-app/
+ 1347  npm start
+ 1348  npm run build
+ 1349  serve -s build
+ 1350  cd ..
+ 1351  mkdir pwa2
+ 1352  cd pwa2/
+ 1353  npx create-react-app pwa-react-typescript --template cra-template-pwa-typescript
+ 1354  cd ..
+ 1355  mkdir pwa3
+ 1356  cd pwa3/
+ 1357  npm create vite@latest pwa-vite-app --template vanilla
+ 1358  cd pwa-vite-app/
+ 1359  code .
+ 1360  cd backend/
+ 1361  npm i install
+ 1362  npm run dev
+ 1363  it branch
+ 1364  git branch
+ 1365  code .
+ 1366  cd ..
+ 1367  cd TT5
+ 1368  cd TastyTrails/
+ 1369  git branch
+ 1370  git checkout bug_fix-github_images 
+ 1371  git status
+ 1372  code .
+ 1373  git log
+ 1374  git clone git@github.com:sadath2001/TastyTrails.git
+ 1375  cd TastyTrails/
+ 1376  git branch bug_footer
+ 1377  git checkout bug_f
+ 1378  cd frontend/
+ 1379  npm i install
+ 1380  cd ../backend/
+ 1381  npm i install
+ 1382  npm run dev
+ 1383  git branch
+ 1384  npm run dev
+ 1385  git branch
+ 1386  npm run dev
+ 1387  git add .
+ 1388  git status
+ 1389  npm run dev
+ 1390  npm install popups
+ 1391  npm run dev
+ 1392  npm uninstall popups
+ 1393  npm install --save node-notifier
+ 1394  npm run dev
+ 1395  npm uninstall --save node-notifier
+ 1396  npm i alert
+ 1397  npm run dev
+ 1398  npm uninstall alert
+ 1399  npm run dev
+ 1400  cd ..
+ 1401  git status
+ 1402  git add .
+ 1403  git commit -m "added files"
+ 1404  git branch feature_github_error_handling
+ 1405  git checkout feature_github_error_handling 
+ 1406  git branch
+ 1407  git push origin feature_github_error_handling 
+ 1408  git lfs install
+ 1409  git branch
+ 1410  git checkout bug_footer 
+ 1411  git checkout
+ 1412  git add . && git commit -m "first commit"
+ 1413  git checkout master 
+ 1414  git checkout bug_footer 
+ 1415  cd frontend/
+ 1416  npm run dev
+ 1417  git status
+ 1418  cd ..
+ 1419  git status
+ 1420  git add .
+ 1421  git commit -m "fixed the footer"
+ 1422  git branch
+ 1423  git push origin bug_footer 
+ 1424  git branch
+ 1425  cd ..
+ 1426  ls
+ 1427  mkdir PWA
+ 1428  cd PWA/
+ 1429  git clone git@github.com:sadath2001/TastyTrails.git
+ 1430  cd TastyTrails/
+ 1431  git branch feature_pwa_app
+ 1432  git checkout feature_pwa_app 
+ 1433  cd frontend/
+ 1434  npm i install
+ 1435  cd TastyTrails/
+ 1436  cd frontend/
+ 1437  npm run dev
+ 1438  git branch
+ 1439  npm run dev
+ 1440  git branch
+ 1441  git add .
+ 1442  npm run dev
+ 1443  cd ..
+ 1444  cd backend/
+ 1445  npm run dev
+ 1446  build -b run
+ 1447  npm run build
+ 1448  npm build -b run
+ 1449  serve -s build
+ 1450  git branch
+ 1451  git checkout feature_PWA
+ 1452  git add .
+ 1453  git commit -m "yes"
+ 1454  git checkout feature_PWA
+ 1455  cd frontend/
+ 1456  npm i install
+ 1457  npm install -D vite-plugin-pwa
+ 1458  npm run build
+ 1459  npm serve
+ 1460  serve
+ 1461  npm run build
+ 1462  npm serve
+ 1463  npm run serve
+ 1464  npm run build
+ 1465  npm run serve
+ 1466  npm run build
+ 1467  npm run serve
+ 1468  npm run build
+ 1469  npm run serve
+ 1470  npm run build
+ 1471  npm run serve
+ 1472  npm run build
+ 1473  npm run serve
+ 1474  cd ../backend/
+ 1475  npm run dev
+ 1476  cd ..
+ 1477  git status
+ 1478  git add .
+ 1479  git commit -m "added extra functions"
+ 1480  cd backend/
+ 1481  npm i install
+ 1482  npm run dev
+ 1483  cd ..
+ 1484  git status
+ 1485  git add .
+ 1486  git commit -m "added PWA"
+ 1487  cd frontend/
+ 1488  npm run build
+ 1489  npm run serve
+ 1490  npm run dev
+ 1491  npm run build
+ 1492  npm run serve
+ 1493  npm run build
+ 1494  npm run serve
+ 1495  npm run build
+ 1496  npm run serve
+ 1497  npm run build
+ 1498  npm run serve
+ 1499  npm run build
+ 1500  npm run serve
+ 1501  npm run build
+ 1502  npm run serve
+ 1503  npm run build
+ 1504  npm run serve
+ 1505  cd frontend/
+ 1506  npm run build
+ 1507  npm run serve
+ 1508  npm run build
+ 1509  npm run serve
+ 1510  npm run build
+ 1511  npm run serve
+ 1512  npm run build
+ 1513  npm run serve
+ 1514  npm run build
+ 1515  npm run serve
+ 1516  npm run build
+ 1517  npm run serve
+ 1518  npm run build
+ 1519  npm run serve
+ 1520  npm run build
+ 1521  npm run serve
+ 1522  npm run build
+ 1523  npm run serve
+ 1524  npm run build
+ 1525  npm run serve
+ 1526  npm run build
+ 1527  npm run serve
+ 1528  npm run build
+ 1529  npm run serve
+ 1530  npm run build
+ 1531  npm run serve
+ 1532  npm run build
+ 1533  npm run serve
+ 1534  npm run build
+ 1535  npm run serve
+ 1536  npm run build
+ 1537  npm run serve
+ 1538  npm run build
+ 1539  npm run serve
+ 1540  npm run build
+ 1541  npm run serve
+ 1542  npm run build
+ 1543  npm run serve
+ 1544  npm run build
+ 1545  npm run serve
+ 1546  npm run dev
+ 1547  cd backend/
+ 1548  npm run dev
+ 1549  cd ..
+ 1550  git add .
+ 1551  git commit -m "added api route cachine"
+ 1552  git log
+ 1553  git checkout e24e0ecd
+ 1554  git add .
+ 1555  git commit -m "added api route caching"
+ 1556  cd backend/
+ 1557  npm run dev
+ 1558  git status
+ 1559  git branch
+ 1560  git checkout feature_google_login 
+ 1561  git branch
+ 1562  git status
+ 1563  git stash
+ 1564  git checkout feature_google_login 
+ 1565  git branch
+ 1566  git status
+ 1567  git add frontend/vite.config.js 
+ 1568  git status
+ 1569  git commit -m "changes successful"
+ 1570  git status
+ 1571  git branch
+ 1572  git branch temp
+ 1573  git branch 
+ 1574  git checkout temp 
+ 1575  git checkout master 
+ 1576  git checkout temp 
+ 1577  git branch
+ 1578  git checkout feature_pwa_app 
+ 1579  git checkout temp
+ 1580  git checkout feature_pwa_app 
+ 1581  git checkout temp
+ 1582  git checkout feature_pwa_app 
+ 1583  git checkout temp
+ 1584  git checkout feature_pwa_app 
+ 1585  git merge temp 
+ 1586  git branch
+ 1587  git merge temp 
+ 1588  git status
+ 1589  git stash
+ 1590  git branch
+ 1591  git status
+ 1592  git add .
+ 1593  git commit -m "yes"
+ 1594  git checkout master 
+ 1595  git pull
+ 1596  git branch feature_google_auth
+ 1597  git checkout feature_google_auth 
+ 1598  cd frontend/
+ 1599  npm run dev
+ 1600  npm i jwt-decode
+ 1601  npm run dev
+ 1602  npm run build
+ 1603  npm run serve
+ 1604  serve -b build
+ 1605  serve
+ 1606  npm run build
+ 1607  npm run preview
+ 1608  serve dist/
+ 1609  npm run dev
+ 1610  cd ..
+ 1611  cd backend/
+ 1612  npm run dev
+ 1613  d ..
+ 1614  git status
+ 1615  git stash
+ 1616  git branch
+ 1617  git checkout feature_pwa_app 
+ 1618  npm run dev
+ 1619  cd ..
+ 1620  git status
+ 1621  git add .
+ 1622  git commit -m "added final touched"
+ 1623  git push origin feature_pwa_app 
+ 1624  git add .
+ 1625  git commit -m "added final touches"
+ 1626  git push origin feature_pwa_app 
+ 1627  git add .
+ 1628  git commit -m "removed a few files"
+ 1629  git push origin feature_pwa_app 
+ 1630  git branch
+ 1631  cd ..
+ 1632  ls
+ 1633  cd TT_Final/
+ 1634  cd TastyTrails/
+ 1635  git branch
+ 1636  git checkout feature_github_error_handling 
+ 1637  code .
+ 1638  cd backend/
+ 1639  npm run dev
+ 1640  cd ..
+ 1641  git status
+ 1642  git add .
+ 1643  git commit -m "Finished the google oauth"
+ 1644  git push origin feature_google_auth 
+ 1645  git add .
+ 1646  git commit -m "modified file env"
+ 1647  git push origin feature_google_auth 
+ 1648  cd frontend/
+ 1649  npm run dev
+ 1650  git branch
+ 1651  npm run dev
+ 1652  npm run build
+ 1653  git status
+ 1654  npm i install vite-plugin-pwa
+ 1655  npm run build
+ 1656  npm run serve
+ 1657  npm run dev
+ 1658  cd backend/
+ 1659  npm run dev
+ 1660  git add .
+ 1661  git commit -m "made a few changes"
+ 1662  git push origin feature_github_error_handling 
+ 1663  cd ..
+ 1664  cd PWA/
+ 1665  cd TastyTrails/
+ 1666  git status
+ 1667  cd frontend/
+ 1668  npm i install vite-plugin-pwa
+ 1669  cd frontend/
+ 1670  npm run dev
+ 1671  git branch
+ 1672  git checkout feature-chat_functionality 
+ 1673  git status
+ 1674  cd frontend/
+ 1675  npm run dev
+ 1676  npm i react-notification-badge
+ 1677  npm i install  react-notification-badge
+ 1678  npm install --save react-notification-badge
+ 1679  npm config set legacy-peer-deps true
+ 1680  npm install --save react-notification-badge
+ 1681  npm run dev
+ 1682  npm install socket.io-client
+ 1683  npm install --save react-lottie
+ 1684  npm install --save react-scrollable-feed
+ 1685  npm run dev
+ 1686  npm i install react-router-dom
+ 1687  npm run dev
+ 1688  cd ..
+ 1689  ls
+ 1690  cd PWA/
+ 1691  cd TastyTrails/
+ 1692  git status
+ 1693  git branch
+ 1694  git checkout master 
+ 1695  git pull
+ 1696  code .
+ 1697  git branch feature_chat
+ 1698  git checkout feature_chat 
+ 1699  cd backend/
+ 1700  npm i install
+ 1701  cd ../frontend/
+ 1702  npm i install
+ 1703  cd frontend/
+ 1704  npm run dev
+ 1705  cd ..
+ 1706  git status
+ 1707  git add .
+ 1708  git commit -m "fixed the bug"
+ 1709  git push origin bug_url_auto_redirect 
+ 1710  git branch
+ 1711  git checkout feature_google_auth 
+ 1712  git checkout bug_url_auto_redirect 
+ 1713  cd frontend/
+ 1714  npm run dev
+ 1715  git status
+ 1716  cd ..
+ 1717  cd PWA/
+ 1718  ls
+ 1719  cd TastyTrails/
+ 1720  git branch
+ 1721  git checkout master 
+ 1722  git branch bug_url_mismatch
+ 1723  git checkout bug_url_mismatch 
+ 1724  git branch delete bug_url_mismatch 
+ 1725  git branch
+ 1726  git checkout master
+ 1727  git branch -d bug_url_mismatch 
+ 1728  git pull
+ 1729  git branch bug-url_mismatch_and_footer
+ 1730  git checkout bug-url_mismatch_and_footer 
+ 1731  cd backend/
+ 1732  npm i install
+ 1733  npm run dev
+ 1734  cd ..
+ 1735  git status
+ 1736  git add .
+ 1737  git commit -m "made the footer as it should be working and also fixed the url issue"
+ 1738  git push origin bug-url_mismatch_and_footer 
+ 1739  cd backend/
+ 1740  npm run dev
+ 1741  cd ..
+ 1742  git status
+ 1743  git add .
+ 1744  git commit -m "changed classes for signup"
+ 1745  git push origin bug-url_mismatch_and_footer 
+ 1746  cd backend/
+ 1747  npm run dev
+ 1748  cd ..
+ 1749  git branch
+ 1750  git checkout master 
+ 1751  git pull
+ 1752  git branch bug_url_auto_redirect
+ 1753  git checkout bug_url_auto_redirect 
+ 1754  cd backend/
+ 1755  npm run dev
+ 1756  cd Documents/
+ 1757  ls
+ 1758  cd Learning/
+ 1759  cd gssoc/
+ 1760  cd PWA/
+ 1761  gs
+ 1762  git status
+ 1763  cd TastyTrails/
+ 1764  git status
+ 1765  git branch
+ 1766  git checkout feature_pwa_app 
+ 1767  cd frontend/
+ 1768  code .
+ 1769  gc
+ 1770  alias gc='git checkout'
+ 1771  gc feature_pwa_app
+ 1772  npm run build
+ 1773  npm i install vite-plugin-pwa
+ 1774  npm run build
+ 1775  npm run serve
+ 1776  cd ..
+ 1777  ls
+ 1778  cd PWA/
+ 1779  ls
+ 1780  cd TastyTrails/
+ 1781  git branch
+ 1782  git branch feature_404_page
+ 1783  gc feature_404_page
+ 1784  git checkout feature_404_page 
+ 1785  code .
+ 1786  npm i install next
+ 1787  alias gs='git status'
+ 1788  gs
+ 1789  npm run dev
+ 1790  build
+ 1791  npm run dev
+ 1792  cd frontend/
+ 1793  npm run build
+ 1794  npm run serve
+ 1795  npm run build
+ 1796  alias nrb='npm run build'
+ 1797  alias nrd='npm run dev'
+ 1798  alias gi='git init'
+ 1799  alias gp=git push origin'
+ 1800  alias gp='git push origin'
+ 1801  alis nrs='npm run serve'
+ 1802  alias nrs='npm run serve'
+ 1803  nrb
+ 1804  nrs
+ 1805  npm run dev
+ 1806  ga
+ 1807  alias ga='git add .'
+ 1808  ga
+ 1809  alias gs='git status'
+ 1810  gs
+ 1811  alias gm='git commit -m'
+ 1812  gm "added offline page"
+ 1813  gp feature_404_page
+ 1814  git branch
+ 1815  git branch --show-current
+ 1816  alias gbc='git branch --show-current'
+ 1817  gbc
+ 1818  alias gp='git push origin gbc'
+ 1819  gp
+ 1820  gbc
+ 1821  alias gp='git push origin'
+ 1822  alias gp='git push origin;gbc'
+ 1823  gp
+ 1824  alias gp='git push -u origin;gbc'
+ 1825  gp
+ 1826  git branch
+ 1827  git push origin feature_404_page 
+ 1828  alias gp='git push origin'
+ 1829  cd ..
+ 1830  kate SECURITY.MD
+ 1831  kate secturity2.MD
+ 1832  code .
+ 1833  npm create vite@latest my-react-app --template react
+ 1834  cd my-react-app/
+ 1835  ls
+ 1836  npm run dev
+ 1837  npm install
+ 1838  npm run dev
+ 1839  npm i react-fontawesome
+ 1840  npm run dev
+ 1841  npm i --save @fortawesome/fontawesome
+ 1842  npm run dev
+ 1843  npm i --save @fortawesome/fontawesome
+ 1844  npm i @fortawesome/react-fontawesome
+ 1845  npm run dev
+ 1846  npm i --save @fortawesome/free-solid-svg-icons
+ 1847  npm run dev
+ 1848  mongosh
+ 1849  gb
+ 1850  alias gb='git branch'
+ 1851  gb
+ 1852  git checkout master 
+ 1853  git pull
+ 1854  git checkout feature_chat_app
+ 1855  git branch feature_chat_app
+ 1856  git checkout feature_chat
+ 1857  gb
+ 1858  git checkout feature_chat_app 
+ 1859  cd frontend/
+ 1860  npm i --save @fortawesome/free-solid-svg-icons
+ 1861  npm i @fortawesome/react-fontawesome
+ 1862  npm install
+ 1863  npm run dev
+ 1864  cd backend/
+ 1865  nom run dev
+ 1866  npm run dev
+ 1867  git branch
+ 1868  git btanch
+ 1869  git branch
+ 1870  cd TastyTrails/
+ 1871  cd frontend/
+ 1872  npm run dev
+ 1873  npm i install
+ 1874  npm run dev
+ 1875  git add .
+ 1876  git commit -m "backend routes setup"
+ 1877  cd ..
+ 1878  git add .
+ 1879  git commit -m "backend routes setup"
+ 1880  cd frontend/
+ 1881  npm run dev
+ 1882  npm i install socket.io-client
+ 1883  npm run dev
+ 1884  npm i install react-redux
+ 1885  npm run dev
+ 1886  npm i install react-input-emoji
+ 1887  npm run dev
+ 1888  npm i timeago.js
+ 1889  npm run dev
+ 1890  npm i install socket.io-client
+ 1891  npm run dev
+ 1892  cd ..
+ 1893  git add .
+ 1894  git commit -m "added profile picture visibility while chatting and message time"
+ 1895  cd frontend/
+ 1896  npm run dev
+ 1897  cd TastyTrails/
+ 1898  cd backend/
+ 1899  npm run socket
+ 1900  cd TastyTrails//frontend/
+ 1901  npm run dev
+ 1902  cd ..
+ 1903  git add .
+ 1904  git commit -m "fixed the search component"
+ 1905  cd frontend/
+ 1906  npm run dev
+ 1907  cd TastyTrails/backend/socket/
+ 1908  npm run socket
+ 1909  cd ..
+ 1910  git add .
+ 1911  git commit -m "added a few validatons"
+ 1912  git branch
+ 1913  cd TastyTrails/
+ 1914  cd backend/
+ 1915  npm run dev
+ 1916  git branch
+ 1917  git checkout feature_404_page 
+ 1918  git status
+ 1919  git stash
+ 1920  git checkout feature_404_page 
+ 1921  cd frontend/
+ 1922  npm run dev
+ 1923  cd ..
+ 1924  git branch
+ 1925  git add .
+ 1926  git commit -m "added image"
+ 1927  sudo snap install aws-cli --classic
+ 1928  aws --version
+ 1929  docker --version
+ 1930  for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+ 1931  docker
+ 1932  # Add Docker's official GPG key:
+ 1933  sudo apt-get update
+ 1934  sudo apt-get install ca-certificates curl
+ 1935  sudo install -m 0755 -d /etc/apt/keyrings
+ 1936  sudo curl -fsSL https://download.docker.com/linux/debian/gpg -o /etc/apt/keyrings/docker.asc
+ 1937  sudo chmod a+r /etc/apt/keyrings/docker.asc
+ 1938  # Add the repository to Apt sources:
+ 1939  echo   "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/debian \
+ 1940    $(. /etc/os-release && echo "$VERSION_CODENAME") stable" |   sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+ 1941  sudo apt-get update
+ 1942  docker --version
+ 1943  for pkg in docker.io docker-doc docker-compose podman-docker containerd runc; do sudo apt-get remove $pkg; done
+ 1944  git status
+ 1945  git add .
+ 1946  git commit -m "yes"
+ 1947  git branch
+ 1948  git checkout feature_google_auth 
+ 1949  git branch
+ 1950  cd TastyTrails/
+ 1951  git branch
+ 1952  git checkout feature_404_page 
+ 1953  git add .
+ 1954  git commit -m " added a monor change
+ 1955  > 
+ 1956  > Co-authored-by: sadath2001 <sadathh44@gmail.com>
+ 1957  > Co-authored-by: darkseid1201 <darkseid120144@gmail.com>"
+ 1958  git push origin sample 
+ 1959  git branch
+ 1960  git checkout main
+ 1961  git branch simple
+ 1962  git checkout simple 
+ 1963  git add .
+ 1964  git commit -m " added a monor change
+ 1965  > 
+ 1966  > Co-authored-by: sadath2001 <sadathh44@gmail.com>
+ 1967  > Co-authored-by: darkseid1201 <darkseid120144@gmail.com>"
+ 1968  git push origin simple 
+ 1969  git add .
+ 1970  git commit -m "SAmple"
+ 1971  git push origin sample 
+ 1972  git push origin simple 
+ 1973  git branch
+ 1974  git checkout main
+ 1975  git add .
+ 1976  git commit -m " added a monor change
+ 1977  > 
+ 1978  > Co-authored-by: sadath2001 <sadathh44@gmail.com>
+ 1979  > Co-authored-by: darkseid1201 <darkseid120144@gmail.com>"
+ 1980  git push origin main
+ 1981  git branch
+ 1982  git add .
+ 1983  git commit -m " added a new file change
+ 1984  > 
+ 1985  > Co-authored-by: sadath2001 <sadathh44@gmail.com>
+ 1986  > Co-authored-by: darkseid1201 <darkseid120144@gmail.com>"
+ 1987  git push origin trys 
+ 1988  git branch
+ 1989  git checkout main
+ 1990  git branch sample
+ 1991  git branch duo
+ 1992  git checkout duo
+ 1993  git status
+ 1994  git add .
+ 1995  git status
+ 1996  git add .
+ 1997  cd frontend/
+ 1998  npm i install
+ 1999  npm run dev
+ 2000  which $SHELL
+ 2001  which
+ 2002  ls
+ 2003  cd Documents/Learning/
+ 2004  mkdir linux_learning
+ 2005  cd linux_learning/
+ 2006  echo '#!/bin/bash' > my-script.sh
+ 2007  echo 'echo hello world' >> my-script.sh 
+ 2008  ls
+ 2009  echo my-script.sh 
+ 2010  cat my-script.sh 
+ 2011  ./my-script.sj
+ 2012  ./my-script.sh
+ 2013  ls
+ 2014  chmod 755 my-script.sh 
+ 2015  ./my-script.sh
+ 2016  nano my-script.sh 
+ 2017  which $shell
+ 2018  which $SHELL
+ 2019  chmod u+rx my-script.sh 
+ 2020  ./my-script.sh
+ 2021  chmod 000 my-script.sh 
+ 2022  ./my-script.sh
+ 2023  chmod u+rx my-script.sh 
+ 2024  echo 'echo hi there' >> my-script.sh 
+ 2025  chmod u+rwx my-script.sh 
+ 2026  echo 'echo hi there' >> my-script.sh 
+ 2027  ./my-script.sh
+ 2028  echo hi there
+ 2029  grep "hi" my-script.sh 
+ 2030  cat my-script.sh | grep "hi"
+ 2031  nano my-script.sh 
+ 2032  ./my-script.sh 
+ 2033  ~/bin/bash
+ 2034  nano my-script.sh 
+ 2035  ./my-script.sh 
+ 2036  nano my-script.sh 
+ 2037  ./my-script.sh 
+ 2038  nano my-script.sh 
+ 2039  ./my-script.sh 
+ 2040  nano my-script.sh 
+ 2041  ./my-script.sh 
+ 2042  nano test.sh
+ 2043  chmod u+rwx test.sh 
+ 2044  ./test.sh 
+ 2045  nano test.sh
+ 2046  ./test.sh 
+ 2047  nano my-script.sh 
+ 2048  ./my-script.sh 
+ 2049  ./test.sh 
+ 2050  nano test.sh 
+ 2051  ./test.sh 
+ 2052  nano test.sh 
+ 2053  ./test.sh 
+ 2054  nano test.sh 
+ 2055  ./test.sh 
+ 2056  nano test.sh 
+ 2057  ./test.sh 
+ 2058  nano test.sh 
+ 2059  ./test.sh 
+ 2060  nano test.sh 
+ 2061  nano test2.sh
+ 2062  chmod 755 test2.sh 
+ 2063  ./test2.sh 
+ 2064  nano tes2
+ 2065  nano test2.sh 
+ 2066  ./test2.sh 
+ 2067  nano test3.sh
+ 2068  chmod 755 test3.sh 
+ 2069  ./test3.sh 
+ 2070  nano test3.sh 
+ 2071  ./test3.sh 
+ 2072  ls
+ 2073  nano test3.sh 
+ 2074  ls
+ 2075  ./test3.sh 
+ 2076  ls
+ 2077  cd ..
+ 2078  cp linux_learning/* linux_learning_2/
+ 2079  mkdir linux_learning_2
+ 2080  cp ./linux_learning/* linux_learning2
+ 2081  cp ./linux_learning/* linux_learning_2/
+ 2082  cd linux_learning_2
+ 2083  ;s
+ 2084  ls
+ 2085  cd ..
+ 2086  ls
+ 2087  mv linux_learning_2/ linux_learning/
+ 2088  ls
+ 2089  cd linux_learning/
+ 2090  ls
+ 2091  mv linux_learning_2/ ../
+ 2092  cd ..
+ 2093  ls
+ 2094  mv linux_learning_2/* linux_learning/
+ 2095  ls
+ 2096  cd linux_learning
+ 2097  ls
+ 2098  cd ..
+ 2099  cd linux_learning_2/
+ 2100  nano sample.txt
+ 2101  cd ..
+ 2102  mv linux_learning_2/* linux_learning/
+ 2103  cd linux_learning/
+ 2104  ls
+ 2105  cd  ..
+ 2106  ls
+ 2107  cd linux_learning_2/
+ 2108  l
+ 2109  ls
+ 2110  cd ..
+ 2111  ls
+ 2112  cd linux_learning
+ 2113  ls
+ 2114  mv *.txt *.py
+ 2115  ls
+ 2116  cp *.py ../linux_learning_2/
+ 2117  cd ../linux_learning_2/
+ 2118  ls
+ 2119  cd ..
+ 2120  cd linux_learning
+ 2121  cd .. && echo linux_learning/*
+ 2122  ls
+ 2123  echo linux_learning_2/
+ 2124  echo linux_learning_2/*
+ 2125  echo ell     hu
+ 2126  echo "hello    "world""
+ 2127  echo 1+2
+ 2128  echo 1*2
+ 2129  echo `1*2`
+ 2130  echo *
+ 2131  cd linux_learning
+ 2132  echo *.py
+ 2133  ls
+ 2134  echo *.sh
+ 2135  echo .
+ 2136  echo *
+ 2137  echo $.
+ 2138  echo $
+ 2139  nano loop.sh
+ 2140  chmod 755 loop.sh 
+ 2141  ./loop.sh 
+ 2142  nano loop.sh
+ 2143  ./loop.sh 
+ 2144  nano loop.sh
+ 2145  ./loop.sh 
+ 2146  nano loop2.sh
+ 2147  chmod 755 loop2.sh 
+ 2148  ./loop2.sh 
+ 2149  nano while.sh
+ 2150  chmod 755 while.sh 
+ 2151  ./while.sh 
+ 2152  chmod 755 while.sh 
+ 2153  nano while.sh
+ 2154  ./while.sh 
+ 2155  nano while.sh
+ 2156  ./while.sh 
+ 2157  nano while.sh
+ 2158  ./while.sh 
+ 2159  nano while.sh
+ 2160  ./while.sh 
+ 2161  nano while.sh
+ 2162  ./while.sh 
+ 2163  nano while.sh
+ 2164  ./while.sh 
+ 2165  nano while.sh 
+ 2166  echo history
+ 2167  history
+ 2168  history > histoty_npw.txt
